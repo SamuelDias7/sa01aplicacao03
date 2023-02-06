@@ -17,7 +17,7 @@ public class Principal {
 		// Instanciando objetos
 		AssentoBO abo = new AssentoBO();
 		
-		JOptionPane.showMessageDialog(null,"Qtde geral de assentos: git" + abo.calcularAssento(qtdeAvioes));
+		JOptionPane.showMessageDialog(null,"Qtde geral de assentos: " + abo.calcularAssento(qtdeAvioes));
 	}
 
 }
